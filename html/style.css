@@ -1,0 +1,124 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/me.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    background-position: 80% 20%;
+    
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8% ;
+   padding-right: 8%;
+}
+.logo{
+    color: rgba(104, 7, 104, 0.8);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block; 
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: #52523f ;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%)
+}
+h1{
+    color: #52523f;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: rgb(48, 67, 48);
+    font-size:25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgba(104, 7, 104, 0.8);
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(216, 225, 203); 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    background-position: 80% 20%;
+}
+.background{
+   display: block;
+   margin-left: 46%;
+   margin-right: 200%;
+   margin-top: 5%;
+   margin-bottom: 21%;
+   border-radius: 6px;
+   width: 200px;
+   height: 100px;
+}
+.background img{
+    float: left;
+    width: 450%;
+    height: 650%;
+  
+}
+p{
+    position: absolute;
+    float: center;
+    top: 23%;
+    left: 3%;
+    letter-spacing: 1.5px;
+    width: 700px;
+    height: 10px;  
+}
+h5{
+    position: absolute;
+    color: #52523f;
+    margin: 15px;
+    font-size: 30px;
+    top: 16%;
+    left: 10%;
+    
+}
+.Connect{
+    width: 80%;
+    margin: 50px auto;
+
+}
+.contect{
+    background: #fff;
+    display: flex;
+
+}
